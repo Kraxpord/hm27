@@ -1,0 +1,101 @@
+#include <iostream> 
+#include <chrono> 
+#include <thread> 
+#include <time.h> 
+#include <Windows.h> 
+using namespace std;
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int columes, row, x, y, n = 0, sum, p;
+	int operation;
+	cout << "1-ex" << endl;
+	cout << "2-ex" << endl;
+	cout << "3-ex" << endl;
+	cout << "4-ex" << endl;
+	cout << "5-ex" << endl;
+	cout << "6-ex" << endl;
+	cout << "Enter operation ->>";
+	cin >> operation;
+	switch (operation)
+	{
+	case 1:
+	{int main();
+	int n, sum = 0;
+
+	cout << "Enter a positive integer: ";
+	cin >> n;
+
+	for (int i = 1; i <= n; ++i)
+		sum += i;
+
+
+	cout << "Sum = " << sum;
+	}break;
+	case 2:
+	{bool isPower(unsigned n);
+	{
+		float p;
+		if (n <= 1)
+			return 1;
+		for (int i = 2; i <= sqrt(n); i++) {
+			p = log2(n) / log2(i);
+			if ((ceil(p) == floor(p)) && p > 1)
+				return true;
+		}
+		return false;
+	}
+	int main();
+	{
+		for (int i = 2; i < 100; i++)
+			if (isPower(i))
+				cout << i << " ";
+	}break;
+	case 3:
+	{int main();
+	{
+		int sum = 0;
+		for (int i = 1; i <= 1000; i++) {
+			sum += i;
+		}
+		double mean = (double)sum / 1000;
+		std::cout << "The arithmetic mean of all integers from 1 to 1000 is: " << mean << std::endl;
+	}break;
+	case 4:
+	{int getProduct(int n);
+	{
+		if (n == 0) {
+			return 1;
+		}
+		return (n % 10) * getProduct(n / 10);
+	}
+
+	int main();
+	{
+
+		cout << getProduct(125);
+	}break;
+	case 5:
+	{int main(); {
+
+		int n;
+
+		cout << "Enter a positive integer: ";
+		cin >> n;
+
+
+		for (int i = 1; i <= 10; ++i) {
+			cout << n << " * " << i << " = " << n * i << endl;
+		}
+	}break;
+	case 6:
+	{
+	}break;
+
+	default:
+		break;
+	}
+
+	return 0;
+	}
